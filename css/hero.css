@@ -1,0 +1,12 @@
+.hero-unit {
+  background: #EEE url(/img/hero.jpg) no-repeat center center;
+  color: #FFF;
+}
+
+.hero-unit h1 {
+  font-size: 300%;
+}
+
+.hero-unit p {
+  line-height: 100%;
+}
