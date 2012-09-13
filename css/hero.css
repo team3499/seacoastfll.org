@@ -10,3 +10,13 @@
 .hero-unit p {
   line-height: 100%;
 }
+
+.hero-unit .sponsor-block {
+  text-align: right;
+  margin: 0 0 -30px auto;
+}
+
+.hero-unit .sponsor-block li {
+  display: inline-block;
+  margin-left: 10px;
+}
