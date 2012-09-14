@@ -13,10 +13,11 @@
 
 .hero-unit .sponsor-block {
   text-align: right;
-  margin: 0 0 -30px auto;
+  margin: 0 -35px -50px auto;
 }
 
 .hero-unit .sponsor-block li {
   display: inline-block;
+  margin-top: 10px;
   margin-left: 10px;
 }
