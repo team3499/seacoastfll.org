@@ -1,6 +1,6 @@
 Seacoast FLL Website
 --------------------
 
-This is the website for the Seacoast [FLL][1] Qualifying Tournament.
+This is the website for the [Seacoast FLL Qualifying Tournament][1].
 
-[1]: http://www.firstlegoleague.org/
+[1]: http://seacoastfll.org/
