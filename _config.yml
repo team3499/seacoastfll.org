@@ -102,6 +102,38 @@ teams:
     name: Oyster River Robot-Cats
     location: Durham, NH
     website:
+fll_schedule:
+  -
+    time: 12:00PM
+    description: Registration and Pits Open
+  -
+    time: 12:30PM
+    description: Opening Ceremony
+  -
+    time: 1:00PM
+    description: Matches and Judging
+  -
+    time: 4:40PM
+    description: Finals
+  -
+    time: 5:30PM
+    description: Closing Ceremony
+jrfll_schedule:
+  -
+    time: 1:00PM
+    description: Registration Open
+  -
+    time: 1:20PM
+    description: Team Reviewing
+  -
+    time: 2:00PM
+    description: Free Time
+  -
+    time: 2:30PM
+    description: Team Parade (Line Up)
+  -
+    time: 2:40PM
+    description: High Five Ceremony
 defaults:
   -
     scope:
