@@ -1,14 +1,13 @@
 ---
 layout: default
 permalink: /roster.html
-title: Team Roster &mdash; Seacoast FLL Qualifier &mdash; November 9, 2013
-description: Twenty FLL Teams Competing in the 2013 Seacoast FLL Qualifier
-author: Brian Turnbull
+title_prepend: Team Roster
+description: Twenty FLL Teams Competing in the Seacoast FLL Qualifier
 ---
       <div class="row">
         <div class="span12">
           <h2>Roster of FLL Teams</h2>
-          <p><a href="http://www.baesystemsfirst.org/">BAE Systems</a>, <a href="http://www.unh.edu/mechanical-engineering/">UNH Department of Mechanical Engineering</a>, and <a href="http://team3499.org/">FIRST Robotics Team 3499 Rivers Edge Robotics</a> are pleased to welcome the following FIRST LEGO League teams to the 2013 Seacoast FLL Qualifying Tournament!</p>
+          <p><a href="http://www.baesystemsfirst.org/">BAE Systems</a>, <a href="http://www.unh.edu/mechanical-engineering/">UNH Department of Mechanical Engineering</a>, and <a href="http://team3499.org/">FIRST Robotics Team 3499 Rivers Edge Robotics</a> are pleased to welcome the following FIRST LEGO League teams to the {{ site.date | date: "%Y" }} Seacoast FLL Qualifying Tournament!</p>
         </div>
       </div>
       <div class="row">
@@ -22,81 +21,13 @@ author: Brian Turnbull
               </tr>
             </thead>
             <tbody>
+              {% for team in site.teams %}
               <tr>
-                <td>3751</td>
-                <td>Seacode</td>
-                <td>Portsmouth, NH</td>
-              </tr>
+                <td>{{ team.number }}</td>
+                <td>{% if team.website %}<a href="{{ team.website }}">{{ team.name }}</a>{% else %}{{ team.name }}{% endif %}</td>
+                <td>{{ team.location }}</td>
               <tr>
-                <td>5973</td>
-                <td>Technical Difficulties</td>
-                <td>New Durham, NH</td>
-              </tr>
-              <tr>
-                <td>8400</td>
-                <td>Blue Heron Team Beta</td>
-                <td>Concord, NH</td>
-              </tr>
-              <tr>
-                <td>8404</td>
-                <td>Blue Heron Team Delta</td>
-                <td>Concord, NH</td>
-              </tr>
-              <tr>
-                <td>8780</td>
-                <td>New Heights Team Alpha</td>
-                <td>Portsmouth, NH</td>
-              </tr>
-              <tr>
-                <td>8798</td>
-                <td>New Heights Team Beta</td>
-                <td>Portsmouth, NH</td>
-              </tr>
-              <tr>
-                <td>8800</td>
-                <td>New Heights Team Charlie</td>
-                <td>Portsmouth, NH</td>
-              </tr>
-              <tr>
-                <td>8801</td>
-                <td>New Heights Team Delta</td>
-                <td>Portsmouth, NH</td>
-              </tr>
-              <tr>
-                <td>8903</td>
-                <td>Legonoids</td>
-                <td>Rochester, NH</td>
-              </tr>
-              <tr>
-                <td>9040</td>
-                <td>Team FUUSEion/td>
-                <td>Exeter, NH</td>
-              </tr>
-              <tr>
-                <td>10439</td>
-                <td>Lego Builder Bots</td>
-                <td>Salem, NH</td>
-              </tr>
-              <tr>
-                <td>11429</td>
-                <td>Whirligigs</td>
-                <td>Strafford, NH</td>
-              </tr>
-              <tr>
-                <td>12321</td>
-                <td>Proteus</td>
-                <td>Nottingham, NH</td>
-              </tr>
-              <tr>
-                <td>15903</td>
-                <td>Greenland Determinators</td>
-                <td>Greenland, NH</td>
-              </tr>
-              <tr>
-                <td>17036</td>
-                <td>#apples through windows</td>
-                <td>Dover, NH</td>
-              </tr>
+              {% endfor %}
             </tbody>
           </table>
         </div>
@@ -104,7 +35,7 @@ author: Brian Turnbull
       <!--<div class="row">
         <div class="span12">
           <h2>Roster of JFLL Teams</h2>
-          <p>We are also pleased to welcome the following Junior FIRST LEGO League teams to the 2013 Seacoast FLL Qualifying Tournament!</p>
+          <p>We are also pleased to welcome the following Junior FIRST LEGO League teams to the {{ site.date | date: "%Y" }} Seacoast FLL Qualifying Tournament!</p>
         </div>
       </div>
       <div class="row">

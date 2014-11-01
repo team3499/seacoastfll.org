@@ -1,69 +1,26 @@
 ---
 layout: front
 permalink: /index.html
-title: Seacoast FLL Qualifier &mdash; November 9, 2013
-description: The Seacoast FIRST Lego League qualifying tournament for 2013 at University of New Hampshire
-author: Brian Turnbull
 ---
       <div class="row">
         <div class="span4">
-          <h2>FLL Schedule</h2>
-          <table class="table table-condensed">
-            <tbody>
-              <tr><td>8:00 AM</td><td>Registration and Pits Open</td></tr>
-              <!--<tr><td>8:15 AM</td><td>Coaches Meeting</td></tr>-->
-              <tr><td>8:30 AM</td><td>Opening Ceremony</td></tr>
-              <tr><td>9:00 AM</td><td>Matches and Judging</td></tr>
-              <tr><td>11:30 AM</td><td>Lunch</td></tr>
-              <tr><td>12:15 PM</td><td>Matches and Judging</td></tr>
-              <tr><td>1:40 PM</td><td>Finals</td></tr>
-              <tr><td>2:30 PM</td><td>Closing Ceremony</td></tr>
-            </tbody>
-          </table>
+          {% include front_fll_schedule.html %}
         </div>
         <div class="span4">
-          <h2>The Challenge</h2>
-          <p><a href="http://www.firstlegoleague.org/challenge/2013naturesfury"><img src="http://www.firstlegoleague.org/sites/default/files/Challenge/NaturesFury/NF_logo.png"></a></p>
-          <p>Discover what can be done when intense natural events meet the places people live, work, and play.  Brace yourself for <a href="http://www.firstlegoleague.org/challenge/2013naturesfury">NATURE’S FURY</a>!</p>
+          {% include front_challenge.html %}
         </div>
         <div class="span4">
-          <h2>Welcome Teams</h2>
-          <p>We are pleased to welcome a full roster of twenty FLL teams to the 2013 Seacoast FLL Qualifying Tournament!</p>
-          <p>On Saturday, November 9th, fifteen <a href="http://www.firstlegoleague.org">FIRST LEGO League</a> teams comprised of over 100 students, 20 team mentors, and countless volunteers will gather at the Memorial Union Building on the beautiful campus of the University of New Hampshire for the 2013 Seacoast FLL Qualifying Tournament.</p>
-          <p>Running in parallel to the FLL events, we have over a dozen JFLL teams competing this year!</p>
-          <p><a class="btn" href="/roster.html">View Roster &raquo;</a></p>
+          {% include front_welcome.html %}
         </div>
       </div>
       <div class="row">
         <div class="span4">
-          <h2>JrFLL Schedule</h2>
-          <table class="table table-condensed">
-            <tbody>
-              <tr><td>10:00 AM</td><td>Registration Open</td></tr>
-              <tr><td>10:20 AM</td><td>Team Reviewing</td></tr>
-              <tr><td>11:00 AM</td><td>Free Time</td></tr>
-              <tr><td>11:30 AM</td><td>Team Parade (Line Up)</td></tr>
-              <tr><td>11:40 AM</td><td>High Five Ceremony</td></tr>
-            </tbody>
-          </table>
-          <!--<p><a class="btn" href="/schedule.html">View Details &raquo;</a></p>-->
+          {% include front_jrfll_schedule.html %}
        </div>
         <div class="span4">
-          <h2>Getting There</h2>
-          <p>All tournament functions take place at the <a href="http://unhmub.com/">Memorial Union Building (MUB)</a> located near downtown Durham on the beautiful campus of the <a href="">University of New Hampshire</a>.</p>
-          <div class="">
-            <address style="margin-left: 1em"><strong>Memorial Union Building (MUB)</strong><br>
-            <a href="https://maps.google.com/maps?q=83+Main+Street,+Durham,+NH&hl=en&ll=43.134564,-70.930052&spn=0.04303,0.069609&sll=43.137633,-70.933485&sspn=0.043028,0.069609&oq=83+Main+Street,+Du&t=m&hnear=83+Main+St,+Durham,+Strafford,+New+Hampshire+03824&z=14">83 Main Street<br>Durham, NH 03824</a></address>
-          </div>
-          <h2>Local Attractions</h2>
-          <p>Need some good coffee?  The local businesses of downtown Durham are only a short walk away.</p>
-          <p><a class="btn" href="/travel.html">View details &raquo;</a></p>
+          {% include front_getting_there.html %}
         </div>
         <div class="span4">
-          <h2>Event Video</h2>
-          <p>The FLL tournament table action is projected on the big screen in the UNH Granite State Room.  For family and friends who couldn't make it to the event, we are streaming that video feed live on the Internet.</p>
-          <!--<p>Starting at 8:30am on Saturday, you can watch on the <a href="http://ustream.tv/channel/seacoast-fll">Seacoast FLL UStream channel</a> or <a href="/broadcast.html">here on our website</a>.</p>
-          <p><a class="btn" href="/broadcast.html">Watch Now &raquo;</a></p>-->
-          <p><strong>[UPDATE]</strong> The live stream is not available this year.  We're having technical difficulties with the university network and UStream.</p>
+          {% include front_video.html %}
         </div>
       </div>

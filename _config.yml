@@ -1,2 +1,113 @@
 name: Seacoast FLL
-highlighter:
+highlighter: ""
+date: November 22, 2014
+teams:
+  -
+    number: 257
+    name: Team Teridax
+    location: Rochester, NH
+    website:
+  -
+    number: 1487
+    name: Robosharks
+    location: Strafford, NH
+    website:
+  -
+    number: 4107
+    name: Team FUUSEion
+    location: Exeter, NH
+    website:
+  -
+    number: 4165
+    name: EPICbots
+    location: Durham, NH
+    website:
+  -
+    number: 4788
+    name: New Heights Portsmouth Team Alpha
+    location: Portsmouth, NH
+    website:
+  -
+    number: 4790
+    name: New Heights Portsmouth Team Beta
+    location: Portsmouth, NH
+    website:
+  -
+    number: 4791
+    name: New Heights Portsmouth Team Charlie
+    location: Portsmouth, NH
+    website:
+  -
+    number: 4792
+    name: New Heights Portsmouth Team Delta
+    location: Portsmouth, NH
+    website:
+  -
+    number: 4794
+    name: New Heights Exeter Team Alpha
+    location: Portsmouth, NH
+    website:
+  -
+    number: 4795
+    name: New Heights Exeter Team Beta
+    location: Portsmouth, NH
+    website:
+  -
+    number: 6259
+    name: Technic Synergy
+    location: Pelham, NH
+    website:
+  -
+    number: 7129
+    name: Team Ultrasonic
+    location: New Durham, NH
+    website:
+  -
+    number: 7422
+    name: The Greenland Determinators
+    location: Greenland, NH
+    website:
+  -
+    number: 8557
+    name: Robowave
+    location: Dover, NH
+    website:
+  -
+    number: 8559
+    name: Robowave 1
+    location: Dover, NH
+    website:
+  -
+    number: 9063
+    name: The Hackers
+    location: New Durham, NH
+    website:
+  -
+    number: 9068
+    name: Paul School Panthers
+    location: Wakefield, NH
+    website:
+  -
+    number: 12909
+    name: Robowave 3
+    location: Dover, NH
+    website:
+  -
+    number: 13751
+    name: The Ordinary Pancakes
+    location: Exeter, NH
+    website:
+  -
+    number: 14880
+    name: Oyster River Robot-Cats
+    location: Durham, NH
+    website:
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default
+      title: Seacoast FLL Qualifier &mdash; November 22, 2014
+      description: The Seacoast FIRST Lego League qualifying tournament at University of New Hampshire
+      author: Brian Turnbull
