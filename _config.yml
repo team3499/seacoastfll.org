@@ -105,19 +105,25 @@ teams:
     website:
 fll_schedule:
   -
+    time: 10:30AM
+    description: Pits Open
+  -
+    time: 11:00AM
+    description: Registration Open
+  -
     time: 12:00PM
-    description: Registration and Pits Open
+    description: Coaches Meeting
   -
     time: 12:30PM
     description: Opening Ceremony
   -
-    time: 1:00PM
+    time: 12:50PM
     description: Matches and Judging
   -
-    time: 4:40PM
-    description: Finals
+    time: 2:00PM
+    description: Make Your Own Sundae
   -
-    time: 5:30PM
+    time: 5:00PM
     description: Closing Ceremony
 jrfll_schedule:
   -
