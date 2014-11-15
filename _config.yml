@@ -118,10 +118,10 @@ fll_schedule:
     time: 2:00PM
     description: Make Your Own Sundae Open
   -
-    time: 4:05PM
+    time: 4:15PM
     description: Finals
   -
-    time: 4:45PM
+    time: 5:15PM
     description: Closing Ceremony
 jrfll_schedule:
   -
