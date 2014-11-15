@@ -55,7 +55,7 @@ teams:
     website:
   -
     number: 7129
-    name: Slice of Pi
+    name: Team Ultrasonic
     location: New Durham, NH
     website:
   -
@@ -65,7 +65,7 @@ teams:
     website:
   -
     number: 8557
-    name: Robowave
+    name: Dover Brick Miners
     location: Dover, NH
     website:
   -
@@ -84,18 +84,13 @@ teams:
     location: Wakefield, NH
     website:
   -
-    number: 12909
-    name: Robowave 3
-    location: Dover, NH
-    website:
-  -
     number: 13751
-    name: The Ordinary Pancakes
+    name: A Bunch of Breakfast
     location: Exeter, NH
     website:
   -
     number: 14880
-    name: Oyster River Robot-Cats
+    name: Oyster River Robo-Cats
     location: Durham, NH
     website:
 fll_schedule:
