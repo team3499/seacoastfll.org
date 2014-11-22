@@ -120,19 +120,19 @@ fll_schedule:
     description: Closing Ceremony
 jrfll_schedule:
   -
-    time: 1:00PM
+    time: 11:20AM
     description: Registration Open
   -
-    time: 1:20PM
+    time: 11:40AM
     description: Team Reviewing
   -
-    time: 2:00PM
-    description: Free Time
+    time: 12:20PM
+    description: Free Build
   -
-    time: 2:30PM
+    time: 12:50PM
     description: Team Parade (Line Up)
   -
-    time: 2:40PM
+    time: 1:00PM
     description: High Five Ceremony
 defaults:
   -
