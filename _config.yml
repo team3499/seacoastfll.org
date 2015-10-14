@@ -1,6 +1,6 @@
 name: Seacoast FLL
 highlighter: ""
-date: November 22, 2014
+date: November 14, 2015
 broadcasting: false
 teams:
   -
@@ -140,6 +140,6 @@ defaults:
       path: ""
     values:
       layout: default
-      title: Seacoast FLL Qualifier &mdash; November 22, 2014
+      title: Seacoast FLL Qualifier &mdash; November 14, 2015
       description: The Seacoast FIRST Lego League qualifying tournament at University of New Hampshire
       author: Brian Turnbull
